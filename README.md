@@ -1,4 +1,4 @@
-# TubeChat — YouTube Q&A AI
+# TubeChat - YouTube Q&A AI
 
 Ask any question about any YouTube video. Runs 100% locally. Free. No API keys.
 
@@ -223,13 +223,3 @@ Delete the `./chroma_db/` folder and restart the server.
 First run downloads ~600MB. After that, models are cached at `~/.cache/huggingface/`.
 
 ---
-
-## What to Build Next
-
-```
-1. Add streaming responses (answer appears word by word)
-2. Persist chat history to SQLite so it survives restarts
-3. Support multiple videos simultaneously
-4. Add video playlist support (load entire playlist)
-5. Export Q&A session as PDF report
-```
