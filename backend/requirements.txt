@@ -1,0 +1,31 @@
+# ── Web Framework ─────────────────────────────────────────────────────────────
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+python-multipart==0.0.9
+
+# ── YouTube ────────────────────────────────────────────────────────────────────
+# NEW vs PDF project:
+# youtube-transcript-api → fetches transcript from any YouTube video
+# pytube                 → fetches video metadata (title, channel, duration)
+youtube-transcript-api==0.6.2
+pytube==15.0.0
+
+# ── HuggingFace & ML ──────────────────────────────────────────────────────────
+# SAME as PDF project — same 3 models
+transformers==4.41.2
+sentence-transformers==3.0.1
+torch==2.6.0
+accelerate==1.3.0
+
+# ── Vector Store ───────────────────────────────────────────────────────────────
+# NEW vs PDF project:
+# chromadb replaces faiss-cpu
+# saves to disk → survives server restarts
+# stores metadata (timestamps) alongside vectors
+chromadb==0.5.0
+
+# ── Utilities ──────────────────────────────────────────────────────────────────
+python-dotenv==1.0.1
+pydantic==2.7.1
+pydantic-settings==2.3.0
+numpy==1.26.4
