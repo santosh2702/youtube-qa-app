@@ -7,8 +7,10 @@ python-multipart==0.0.9
 # NEW vs PDF project:
 # youtube-transcript-api → fetches transcript from any YouTube video
 # pytube                 → fetches video metadata (title, channel, duration)
-youtube-transcript-api==0.6.2
-pytube==15.0.0
+youtube-transcript-api
+yt-dlp
+openai-whisper
+requests
 
 # ── HuggingFace & ML ──────────────────────────────────────────────────────────
 # SAME as PDF project — same 3 models
